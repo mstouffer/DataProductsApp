@@ -1,0 +1,36 @@
+DataProductsApp
+========================================================
+author: Mark Stouffer
+date: 9/15/2018
+autosize: true
+
+Overview
+========================================================
+
+This presentation is part of the Course Project for the Coursera Developing Data Products class. The peer assessed assignment has two parts. First, we need to create a Shiny application and deploy it on Rstudio's servers. Second, we should use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about the application. This presentation adresses the second part of the course project.
+
+Summary
+========================================================
+
+This app allows you to calculate a team's winning percentage, given the number
+of wins, losses, and ties.
+
+
+An Example of the code
+========================================================
+
+This is one line of the code that does the primary computation:
+
+
+```r
+winning <- function(wins, losses, ties) {(wins+ties/2)/(wins+losses+ties)}
+```
+
+URLs
+========================================================
+
+The URL to the app is here:
+https://markstouffer.shinyapps.io/DataProductAppProject/
+
+The URL to the source code is here:
+https://github.com/mstouffer/DataProductsApp
